@@ -6,6 +6,7 @@ html, body {
 fieldset {
     padding: 0;
     border: none;
+    display: flex;
 }
 
 img {
@@ -29,8 +30,8 @@ img {
     color: rgb(253, 253, 253);
     text-shadow: 4px 4px #1b6bb6;
     font-size: 5rem;
-    top: 20%;
-    left: 9.9%;
+    top: 25%;
+    left: 25%;
     transform: translate(-25%, -25%);
     text-align: center;
     font-family: "Lexend", sans-serif;
