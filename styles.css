@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    padding: 0;
+    border: none;
+}
+
+img {
+    display: block;
+    width: 40vw;   
+    height: 100vh;
+}
+
+.form-img {
+    margin-left: -2px;
+}
+
+
+.img-section {
+    display: flex;
+    position: relative;
+}
+
+.img-section .title {
+    position: absolute; /* Optional for more control */
+    color: rgb(253, 253, 253);
+    text-shadow: 4px 4px #1b6bb6;
+    font-size: 5rem;
+    top: 20%;
+    left: 9.9%;
+    transform: translate(-25%, -25%);
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+}
+
+.title {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 40vw;
+}
