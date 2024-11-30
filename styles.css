@@ -84,3 +84,43 @@ label {
     font-weight: 500;
     color: rgb(68, 65, 65);
 }
+
+.btn-createAcc {
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: 0.25s;
+    font-size: 2rem;
+    margin-left: 300px;
+    margin-top: -50px;
+}
+
+.btn-createAcc:hover {
+    background-color: #45a049 ; /* Lighter shade on hover */
+}
+
+.login {
+    font-size: 2rem
+}
+
+a {
+    color: #45a049; /* Default text color */
+    text-decoration: none; /* Removes underline */
+  }
+  
+  a:hover {
+    color: #68e46e; /* Color on hover */
+    
+  }
+  
+  a:visited {
+    color: #1e6121; /* Color for visited links */
+  }
+  
+  a:active {
+    color: #02f30e; /* Color when the link is active (clicked) */
+  }
