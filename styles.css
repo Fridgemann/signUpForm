@@ -41,3 +41,44 @@ img {
     background-color: rgba(255, 255, 255, 0.2);
     width: 40vw;
 }
+
+.form-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(194, 190, 190, 0.2);
+    font-family: "Roboto", sans-serif;
+    padding: 100px;
+    gap: 6rem;
+}
+
+.info-text {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+    flex-grow: 1;
+}
+
+.label-and-input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-weight: 500;
+    color: rgb(68, 65, 65);
+}
