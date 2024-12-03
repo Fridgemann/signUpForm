@@ -12,7 +12,7 @@ fieldset {
 img {
     display: block;
     width: 40vw;   
-    height: 100vh;
+    height: 100%;
 }
 
 .form-img {
@@ -22,7 +22,20 @@ img {
 
 .img-section {
     display: flex;
+    flex-direction: column;
     position: relative;
+}
+
+.footer {
+    position: absolute; /* Position the footer within the container */
+    bottom: 0; /* Align at the bottom of the image */
+    width: 100%; /* Full width of the container */
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white; /* Text color */
+    text-align: center; /* Center text horizontally */
+    padding: 10px 0; /* Add spacing inside the footer */
+    font-size: 16px; /* Adjust font size as needed */
+    font-family: "Lexend", sans-serif;
 }
 
 .img-section .title {
@@ -50,7 +63,7 @@ img {
     justify-content: center;
     background-color: rgb(101, 137, 236);
     font-family: "Roboto", sans-serif;
-    padding: 100px;
+    padding: 90px;
     gap: 6rem;
 }
 
