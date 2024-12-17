@@ -1,7 +1,0 @@
-html, body {
-	margin: 0; /* Removes margin */
-	padding: 0; /* Removes padding */
-	box-sizing: border-box; /* Ensures consistent sizing */
-	overflow-x: hidden; /* Prevents horizontal scrolling caused by overflow */
-  }
-  
