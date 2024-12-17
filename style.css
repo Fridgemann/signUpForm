@@ -45,13 +45,13 @@ body {
 
   .text-overlay img {
     width: 100px; /* Adjust the width of the additional image */
-    height: 100px; /* Adjust the height of the additional image */
+    height: fit-content; /* Adjust the height of the additional image */
     object-fit: cover; /* Keep the additional image's aspect ratio */
   }
 
   .text-overlay p {
     margin: 0; /* Remove default margin from text */
-    font-size: 3.5rem; /* Adjust text size for readability */
+    font-size: 5rem; /* Adjust text size for readability */
     font-family: 'Norse Bold', sans-serif;
   }
 
@@ -64,3 +64,16 @@ body {
     padding: 15px 0; /* Add padding for spacing */
     font-size: 1rem; /* Adjust font size */
   }
+
+ .footer a{
+	text-decoration: none;
+ }
+ .footer a:link {
+	color: rgb(178, 255, 255);
+ }
+ .footer a:visited {
+	color: rgb(56, 148, 148);
+ }
+ .footer a:hover {
+	color: red;
+ }
