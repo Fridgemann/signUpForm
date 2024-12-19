@@ -10,6 +10,11 @@
 	src: url('./fonts/Roboto/Roboto-Regular.ttf');
 }
 
+@font-face {
+	font-family: 'Roboto Mono';
+	src: url('./fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf');
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -116,6 +121,32 @@ body {
 }
 
 .form-text {
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	font-weight: bold;
+	padding: 10px;
+}
+
+.field-and-info {
+	display: flex;
+	flex-direction: column; /* Stack label and input vertically */
+	align-items: flex-start; /* Align items to the same starting point */
+  }
+  
+  label {
+	font-size: 1rem; /* Optional: Adjust label font size */
+	margin-bottom: 5px; /* Space between label and input */
+	color: #726e6e;
+	font-family: 'Roboto Mono', sans-serif;
+  }
+  
+  input {
+	font-size: 1rem; /* Optional: Match input font size with label */
+	padding: 5px; /* Add padding for better visuals */
+	width: 100%; /* Optional: Make the input field responsive */
+  }
+  
+.row {
+	display: flex;
+	gap: 300px;
+
 }
