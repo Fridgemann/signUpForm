@@ -5,6 +5,11 @@
     font-style: normal;
 }
 
+@font-face {
+	font-family: 'Roboto';
+	src: url('./fonts/Roboto/Roboto-Regular.ttf');
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -15,6 +20,7 @@ body {
 
 .container {
 	display: flex;
+	justify-content: space-between;
 }
 
 .img-section {
@@ -82,3 +88,34 @@ body {
 	color: red;
  }
 
+.form-section {
+	width: 60vw;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(118, 148, 112);
+}
+.info-para {
+	font-size: 2.5rem;
+	padding: 50px;
+}
+
+.form {
+	width: 100%;
+	background-color: rgb(246, 249, 250);
+	margin: 50px auto; /* Center the box horizontally */
+	border: 1px solid #ccc;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Creates undershadow */
+}
+
+.form-inside {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 20px 50px;
+	
+}
+
+.form-text {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
