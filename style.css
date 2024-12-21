@@ -123,7 +123,7 @@ body {
 .form-text {
 	font-size: 2.5rem;
 	font-weight: bold;
-	padding: 10px;
+  padding-bottom: 20px;
 }
 
 .field-and-info {
@@ -143,6 +143,7 @@ body {
 	font-size: 1rem; /* Optional: Match input font size with label */
 	padding: 5px; /* Add padding for better visuals */
 	width: 100%; /* Optional: Make the input field responsive */
+  margin-bottom: 25px;
   }
   
 .row {
